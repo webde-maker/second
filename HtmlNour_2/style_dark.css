@@ -1,0 +1,186 @@
+/*The following script is for wordpress */
+
+/*
+	Theme Name:hyphens: HTML5;
+	Date: September 2020;
+	Discription: Learn Basic HTML5;
+	Version: 1.0;
+	Author: Hamza Aziz;
+	Author URL: http://www.dr-nour.com;  You will write the correct url later;
+*/
+
+/*
+*{
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+*/
+
+body{
+	background-image: url('img/seamless_dark_2.jpg');
+	color: #000305; /* As a developer I write the background-color even I allready have backgound-image 
+					   to ensure that even the browser couldn't read the image it will read the color of the background. */
+
+	font-size: 90%; /* base font-size = 14px */
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+
+}
+
+a{text-decoration: none;}
+a:link, a:visited {color: #ffa801; font-style: oblique;}
+a:hover, a:active { color: red;}
+
+.body{
+	margin: 10px auto;
+	width: 70%;
+	clear: both;
+}
+
+
+/* ------------------Main Header ------------------*/
+
+.mainheader img{
+	width: 100%;
+}
+
+.mainheader nav{
+	background-color: #e74c3c;
+	height: 40px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px; /*j'ai ecris ces deux lignes puor etre sur que tous les sites recevouir cet effet*/
+	-moz-border-radius: 5px;
+}
+ 
+.mainheader nav ul{
+	text-align: center;
+	list-style: none;
+	margin: 0 auto;
+}
+.mainheader nav ul li {
+	display: inline;
+}
+
+.mainheader a:link, .mainheader a:visited{
+	color: white;
+	padding: 10px 40px;
+	display: inline-block;
+	height: 20px; /*this is the height of the text*/ /* I wrote this attribute to ensure that the browser will do that feature (Video3: minute:17:50)*/
+}
+
+.mainheader a:hover, .mainheader a:active{
+	color: white;
+	background-color: #f58233;
+	text-shadow: 1px 1px black;
+}
+
+/* ------------------Main Content ------------------*/
+
+.mainContent{
+	color: white;
+	width: 70%;
+	float: left;
+}
+
+.top-content{
+	background-color: #1e272e;
+	padding: 2%;
+	margin: 2% auto; 
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.post-info{
+	font-size: 90%; /* 90% of the size of text */
+	color: #f8c291;
+	font-style: italic;
+	margin-top: -20px;
+}
+
+.post-content{
+	display: block; 
+}
+
+/* ------------------ Side Bar ------------------*/
+
+.theSidebar{
+	color: #f53b57;
+	width: 24%;
+	margin: 2% 0 0 2%; 
+	float: left;
+	padding: 2%;
+
+	background-color: #1e272e;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/* ------------------Footer ------------------*/
+
+.footer{
+	margin-top: 20px;
+	float: left;
+	width: 70%;
+
+	background-color: #e74c3c;
+	height: 60px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.footer span {
+	margin: 20px auto;
+	text-align: center;
+	color: white;
+	width: 90%;
+}
+#goTop{
+	width: 24%;
+	margin: 2% 0 10px 2%; 
+	float: left;
+	padding: 2%;
+	text-align: center;
+
+	background-color: gray; /* #e74c3c */
+	height: 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+}
+
+/* ------------------HTML5 ------------------*/
+
+.post-img {
+	width: 100%;
+}
+
+figure{
+	margin: 25px 0; /* 25px: top & bottom; 0px: right & left;*/
+	font-size: 80%;
+	color: #999;
+}
+
+figcaption{
+	color: #fa983a;
+	text-align: center;
+}
+
+/*
+audio{
+	width: 100%;
+}*/
+
+
+
+
+
+
+
+
+

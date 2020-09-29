@@ -1,0 +1,47 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+}
+
+header{
+	width: 70%;
+	height: 90px;
+}
+
+nav{
+	background-color: gray;
+	float: left;
+}
+li{display: inline-block;}
+
+
+#Mainbody{
+	width: 70%;
+	background: #fff; /*#dcdde1*/
+
+	}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	font-family: cursive;
+	color: #FFC312;
+}
+
+p{
+	background-color: #fff;
+
+	font-family: Arial;
+	font-size: 90%;
+	font-style: italic;
+}
+
+#part1{
+
+
+}
+
+
